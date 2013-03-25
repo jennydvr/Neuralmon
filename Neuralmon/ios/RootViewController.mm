@@ -2,7 +2,7 @@
 //  NeuralmonAppController.h
 //  Neuralmon
 //
-//  Created by Jenny Valdez on 25/03/13.
+//  Created by Jenny Valdez on 26/02/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
@@ -43,7 +43,7 @@
 // For ios6, use supportedInterfaceOrientations & shouldAutorotate instead
 - (NSUInteger) supportedInterfaceOrientations{
 #ifdef __IPHONE_6_0
-    return UIInterfaceOrientationMaskLandscape;
+    return UIInterfaceOrientationMaskPortrait;
 #endif
 }
 

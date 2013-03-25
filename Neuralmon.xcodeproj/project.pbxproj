@@ -204,8 +204,21 @@
 		00AAAFDA1700F50100DF506C /* HttpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFD91700F50100DF506C /* HttpClient.cpp */; };
 		00AAAFE01700F50100DF506C /* CCPhysicsDebugNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFDF1700F50100DF506C /* CCPhysicsDebugNode.cpp */; };
 		00AAAFE31700F50100DF506C /* CCPhysicsSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFE21700F50100DF506C /* CCPhysicsSprite.cpp */; };
-		00AAAFEA1700F50100DF506C /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFE91700F50100DF506C /* AppDelegate.cpp */; };
 		00AAAFED1700F50100DF506C /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFEC1700F50100DF506C /* HelloWorldScene.cpp */; };
+		00AAAFF61700F57700DF506C /* charmander.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AAAFF31700F57700DF506C /* charmander.png */; };
+		00AAAFF71700F57700DF506C /* movebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AAAFF41700F57700DF506C /* movebox.png */; };
+		00AAAFF81700F57700DF506C /* statsbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AAAFF51700F57700DF506C /* statsbox.png */; };
+		00AAB00F1700F5A400DF506C /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFF91700F5A400DF506C /* AppDelegate.cpp */; };
+		00AAB0101700F5A400DF506C /* BackgroundLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFFB1700F5A400DF506C /* BackgroundLayer.cpp */; };
+		00AAB0111700F5A400DF506C /* CharactersLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFFD1700F5A400DF506C /* CharactersLayer.cpp */; };
+		00AAB0121700F5A400DF506C /* Charm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFFF1700F5A400DF506C /* Charm.cpp */; };
+		00AAB0131700F5A400DF506C /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAB0011700F5A400DF506C /* MenuScene.cpp */; };
+		00AAB0141700F5A400DF506C /* Pet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAB0031700F5A400DF506C /* Pet.cpp */; };
+		00AAB0151700F5A400DF506C /* PlayScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAB0051700F5A400DF506C /* PlayScene.cpp */; };
+		00AAB0161700F5A400DF506C /* Recover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAB0071700F5A400DF506C /* Recover.cpp */; };
+		00AAB0171700F5A400DF506C /* Saquito.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAB0091700F5A400DF506C /* Saquito.cpp */; };
+		00AAB0181700F5A400DF506C /* Spite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAB00B1700F5A400DF506C /* Spite.cpp */; };
+		00AAB0191700F5A400DF506C /* Tackle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAB00D1700F5A400DF506C /* Tackle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -644,10 +657,36 @@
 		00AAAFE21700F50100DF506C /* CCPhysicsSprite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CCPhysicsSprite.cpp; path = libs/extensions/physics_nodes/CCPhysicsSprite.cpp; sourceTree = "<group>"; };
 		00AAAFE41700F50100DF506C /* CCPhysicsSprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCPhysicsSprite.h; path = libs/extensions/physics_nodes/CCPhysicsSprite.h; sourceTree = "<group>"; };
 		00AAAFE61700F50100DF506C /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		00AAAFE81700F50100DF506C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
-		00AAAFE91700F50100DF506C /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		00AAAFEB1700F50100DF506C /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		00AAAFEC1700F50100DF506C /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		00AAAFF31700F57700DF506C /* charmander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charmander.png; path = ../../../Desktop/Neuralmon/Resources/charmander.png; sourceTree = "<group>"; };
+		00AAAFF41700F57700DF506C /* movebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = movebox.png; path = ../../../Desktop/Neuralmon/Resources/movebox.png; sourceTree = "<group>"; };
+		00AAAFF51700F57700DF506C /* statsbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statsbox.png; path = ../../../Desktop/Neuralmon/Resources/statsbox.png; sourceTree = "<group>"; };
+		00AAAFF91700F5A400DF506C /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../../../Desktop/Neuralmon/Classes/AppDelegate.cpp; sourceTree = "<group>"; };
+		00AAAFFA1700F5A400DF506C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../Desktop/Neuralmon/Classes/AppDelegate.h; sourceTree = "<group>"; };
+		00AAAFFB1700F5A400DF506C /* BackgroundLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BackgroundLayer.cpp; path = ../../../Desktop/Neuralmon/Classes/BackgroundLayer.cpp; sourceTree = "<group>"; };
+		00AAAFFC1700F5A400DF506C /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundLayer.h; path = ../../../Desktop/Neuralmon/Classes/BackgroundLayer.h; sourceTree = "<group>"; };
+		00AAAFFD1700F5A400DF506C /* CharactersLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CharactersLayer.cpp; path = ../../../Desktop/Neuralmon/Classes/CharactersLayer.cpp; sourceTree = "<group>"; };
+		00AAAFFE1700F5A400DF506C /* CharactersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharactersLayer.h; path = ../../../Desktop/Neuralmon/Classes/CharactersLayer.h; sourceTree = "<group>"; };
+		00AAAFFF1700F5A400DF506C /* Charm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Charm.cpp; path = ../../../Desktop/Neuralmon/Classes/Charm.cpp; sourceTree = "<group>"; };
+		00AAB0001700F5A400DF506C /* Charm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Charm.h; path = ../../../Desktop/Neuralmon/Classes/Charm.h; sourceTree = "<group>"; };
+		00AAB0011700F5A400DF506C /* MenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuScene.cpp; path = ../../../Desktop/Neuralmon/Classes/MenuScene.cpp; sourceTree = "<group>"; };
+		00AAB0021700F5A400DF506C /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuScene.h; path = ../../../Desktop/Neuralmon/Classes/MenuScene.h; sourceTree = "<group>"; };
+		00AAB0031700F5A400DF506C /* Pet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pet.cpp; path = ../../../Desktop/Neuralmon/Classes/Pet.cpp; sourceTree = "<group>"; };
+		00AAB0041700F5A400DF506C /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pet.h; path = ../../../Desktop/Neuralmon/Classes/Pet.h; sourceTree = "<group>"; };
+		00AAB0051700F5A400DF506C /* PlayScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlayScene.cpp; path = ../../../Desktop/Neuralmon/Classes/PlayScene.cpp; sourceTree = "<group>"; };
+		00AAB0061700F5A400DF506C /* PlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayScene.h; path = ../../../Desktop/Neuralmon/Classes/PlayScene.h; sourceTree = "<group>"; };
+		00AAB0071700F5A400DF506C /* Recover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Recover.cpp; path = ../../../Desktop/Neuralmon/Classes/Recover.cpp; sourceTree = "<group>"; };
+		00AAB0081700F5A400DF506C /* Recover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recover.h; path = ../../../Desktop/Neuralmon/Classes/Recover.h; sourceTree = "<group>"; };
+		00AAB0091700F5A400DF506C /* Saquito.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Saquito.cpp; path = ../../../Desktop/Neuralmon/Classes/Saquito.cpp; sourceTree = "<group>"; };
+		00AAB00A1700F5A400DF506C /* Saquito.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Saquito.h; path = ../../../Desktop/Neuralmon/Classes/Saquito.h; sourceTree = "<group>"; };
+		00AAB00B1700F5A400DF506C /* Spite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Spite.cpp; path = ../../../Desktop/Neuralmon/Classes/Spite.cpp; sourceTree = "<group>"; };
+		00AAB00C1700F5A400DF506C /* Spite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spite.h; path = ../../../Desktop/Neuralmon/Classes/Spite.h; sourceTree = "<group>"; };
+		00AAB00D1700F5A400DF506C /* Tackle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tackle.cpp; path = ../../../Desktop/Neuralmon/Classes/Tackle.cpp; sourceTree = "<group>"; };
+		00AAB00E1700F5A400DF506C /* Tackle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tackle.h; path = ../../../Desktop/Neuralmon/Classes/Tackle.h; sourceTree = "<group>"; };
+		00AAB01B1700F63600DF506C /* CCFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFloat.h; path = libs/cocos2dx/cocoa/CCFloat.h; sourceTree = "<group>"; };
+		00AAB01C1700F65100DF506C /* CCDouble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCDouble.h; path = libs/cocos2dx/cocoa/CCDouble.h; sourceTree = "<group>"; };
+		00AAB01D1700F66A00DF506C /* CCBool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCBool.h; path = libs/cocos2dx/cocoa/CCBool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -717,6 +756,9 @@
 		00AAAD4C1700F4FD00DF506C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				00AAAFF31700F57700DF506C /* charmander.png */,
+				00AAAFF41700F57700DF506C /* movebox.png */,
+				00AAAFF51700F57700DF506C /* statsbox.png */,
 				00AAAD4D1700F4FD00DF506C /* CloseNormal.png */,
 				00AAAD4F1700F4FD00DF506C /* CloseSelected.png */,
 				00AAAD511700F4FD00DF506C /* Default.png */,
@@ -846,8 +888,11 @@
 				00AAADB01700F4FD00DF506C /* CCArray.h */,
 				00AAADB11700F4FD00DF506C /* CCAutoreleasePool.cpp */,
 				00AAADB31700F4FD00DF506C /* CCAutoreleasePool.h */,
+				00AAB01D1700F66A00DF506C /* CCBool.h */,
 				00AAADB41700F4FD00DF506C /* CCDictionary.cpp */,
 				00AAADB61700F4FD00DF506C /* CCDictionary.h */,
+				00AAB01C1700F65100DF506C /* CCDouble.h */,
+				00AAB01B1700F63600DF506C /* CCFloat.h */,
 				00AAADB71700F4FD00DF506C /* CCGeometry.cpp */,
 				00AAADB91700F4FE00DF506C /* CCGeometry.h */,
 				00AAADBA1700F4FE00DF506C /* CCInteger.h */,
@@ -1555,8 +1600,28 @@
 		00AAAFE71700F50100DF506C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				00AAAFE81700F50100DF506C /* AppDelegate.h */,
-				00AAAFE91700F50100DF506C /* AppDelegate.cpp */,
+				00AAAFF91700F5A400DF506C /* AppDelegate.cpp */,
+				00AAAFFA1700F5A400DF506C /* AppDelegate.h */,
+				00AAAFFB1700F5A400DF506C /* BackgroundLayer.cpp */,
+				00AAAFFC1700F5A400DF506C /* BackgroundLayer.h */,
+				00AAAFFD1700F5A400DF506C /* CharactersLayer.cpp */,
+				00AAAFFE1700F5A400DF506C /* CharactersLayer.h */,
+				00AAAFFF1700F5A400DF506C /* Charm.cpp */,
+				00AAB0001700F5A400DF506C /* Charm.h */,
+				00AAB0011700F5A400DF506C /* MenuScene.cpp */,
+				00AAB0021700F5A400DF506C /* MenuScene.h */,
+				00AAB0031700F5A400DF506C /* Pet.cpp */,
+				00AAB0041700F5A400DF506C /* Pet.h */,
+				00AAB0051700F5A400DF506C /* PlayScene.cpp */,
+				00AAB0061700F5A400DF506C /* PlayScene.h */,
+				00AAB0071700F5A400DF506C /* Recover.cpp */,
+				00AAB0081700F5A400DF506C /* Recover.h */,
+				00AAB0091700F5A400DF506C /* Saquito.cpp */,
+				00AAB00A1700F5A400DF506C /* Saquito.h */,
+				00AAB00B1700F5A400DF506C /* Spite.cpp */,
+				00AAB00C1700F5A400DF506C /* Spite.h */,
+				00AAB00D1700F5A400DF506C /* Tackle.cpp */,
+				00AAB00E1700F5A400DF506C /* Tackle.h */,
 				00AAAFEB1700F50100DF506C /* HelloWorldScene.h */,
 				00AAAFEC1700F50100DF506C /* HelloWorldScene.cpp */,
 			);
@@ -1625,6 +1690,9 @@
 				00AAAD601700F4FD00DF506C /* Icon@2x.png in Resources */,
 				00AAAD621700F4FD00DF506C /* iTunesArtwork in Resources */,
 				00AAADF81700F4FE00DF506C /* ChangeLog in Resources */,
+				00AAAFF61700F57700DF506C /* charmander.png in Resources */,
+				00AAAFF71700F57700DF506C /* movebox.png in Resources */,
+				00AAAFF81700F57700DF506C /* statsbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1811,8 +1879,18 @@
 				00AAAFDA1700F50100DF506C /* HttpClient.cpp in Sources */,
 				00AAAFE01700F50100DF506C /* CCPhysicsDebugNode.cpp in Sources */,
 				00AAAFE31700F50100DF506C /* CCPhysicsSprite.cpp in Sources */,
-				00AAAFEA1700F50100DF506C /* AppDelegate.cpp in Sources */,
 				00AAAFED1700F50100DF506C /* HelloWorldScene.cpp in Sources */,
+				00AAB00F1700F5A400DF506C /* AppDelegate.cpp in Sources */,
+				00AAB0101700F5A400DF506C /* BackgroundLayer.cpp in Sources */,
+				00AAB0111700F5A400DF506C /* CharactersLayer.cpp in Sources */,
+				00AAB0121700F5A400DF506C /* Charm.cpp in Sources */,
+				00AAB0131700F5A400DF506C /* MenuScene.cpp in Sources */,
+				00AAB0141700F5A400DF506C /* Pet.cpp in Sources */,
+				00AAB0151700F5A400DF506C /* PlayScene.cpp in Sources */,
+				00AAB0161700F5A400DF506C /* Recover.cpp in Sources */,
+				00AAB0171700F5A400DF506C /* Saquito.cpp in Sources */,
+				00AAB0181700F5A400DF506C /* Spite.cpp in Sources */,
+				00AAB0191700F5A400DF506C /* Tackle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1944,6 +2022,7 @@
 				00AAAFF21700F50100DF506C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

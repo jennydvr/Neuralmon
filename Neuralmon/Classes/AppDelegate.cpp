@@ -2,25 +2,20 @@
 //  NeuralmonAppDelegate.cpp
 //  Neuralmon
 //
-//  Created by Jenny Valdez on 25/03/13.
+//  Created by Jenny Valdez on 26/02/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
 #include "AppDelegate.h"
 
 #include "cocos2d.h"
-#include "HelloWorldScene.h"
+#include "MenuScene.h"
 
 USING_NS_CC;
 
-AppDelegate::AppDelegate()
-{
+AppDelegate::AppDelegate() {}
 
-}
-
-AppDelegate::~AppDelegate()
-{
-}
+AppDelegate::~AppDelegate() {}
 
 bool AppDelegate::applicationDidFinishLaunching()
 {
@@ -28,6 +23,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     CCDirector *pDirector = CCDirector::sharedDirector();
     pDirector->setOpenGLView(CCEGLView::sharedOpenGLView());
 
+    pDirector->sharedDirector()->setDisplayStats(false);
+    
     // turn on display FPS
     pDirector->setDisplayStats(true);
 
@@ -35,7 +32,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     pDirector->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    CCScene *pScene = HelloWorld::scene();
+    CCScene *pScene = MenuScene::scene();
 
     // run
     pDirector->runWithScene(pScene);
@@ -47,14 +44,14 @@ bool AppDelegate::applicationDidFinishLaunching()
 void AppDelegate::applicationDidEnterBackground()
 {
     CCDirector::sharedDirector()->stopAnimation();
-    SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
-    SimpleAudioEngine::sharedEngine()->pauseAllEffects();
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->pauseAllEffects();
 }
 
 // this function will be called when the app is active again
 void AppDelegate::applicationWillEnterForeground()
 {
     CCDirector::sharedDirector()->startAnimation();
-    SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
-    SimpleAudioEngine::sharedEngine()->resumeAllEffects();
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->resumeAllEffects();
 }
