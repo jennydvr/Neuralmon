@@ -204,7 +204,6 @@
 		00AAAFDA1700F50100DF506C /* HttpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFD91700F50100DF506C /* HttpClient.cpp */; };
 		00AAAFE01700F50100DF506C /* CCPhysicsDebugNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFDF1700F50100DF506C /* CCPhysicsDebugNode.cpp */; };
 		00AAAFE31700F50100DF506C /* CCPhysicsSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFE21700F50100DF506C /* CCPhysicsSprite.cpp */; };
-		00AAAFED1700F50100DF506C /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00AAAFEC1700F50100DF506C /* HelloWorldScene.cpp */; };
 		00AAAFF61700F57700DF506C /* charmander.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AAAFF31700F57700DF506C /* charmander.png */; };
 		00AAAFF71700F57700DF506C /* movebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AAAFF41700F57700DF506C /* movebox.png */; };
 		00AAAFF81700F57700DF506C /* statsbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AAAFF51700F57700DF506C /* statsbox.png */; };
@@ -657,8 +656,6 @@
 		00AAAFE21700F50100DF506C /* CCPhysicsSprite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CCPhysicsSprite.cpp; path = libs/extensions/physics_nodes/CCPhysicsSprite.cpp; sourceTree = "<group>"; };
 		00AAAFE41700F50100DF506C /* CCPhysicsSprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCPhysicsSprite.h; path = libs/extensions/physics_nodes/CCPhysicsSprite.h; sourceTree = "<group>"; };
 		00AAAFE61700F50100DF506C /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		00AAAFEB1700F50100DF506C /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		00AAAFEC1700F50100DF506C /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		00AAAFF31700F57700DF506C /* charmander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charmander.png; path = ../../../Desktop/Neuralmon/Resources/charmander.png; sourceTree = "<group>"; };
 		00AAAFF41700F57700DF506C /* movebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = movebox.png; path = ../../../Desktop/Neuralmon/Resources/movebox.png; sourceTree = "<group>"; };
 		00AAAFF51700F57700DF506C /* statsbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statsbox.png; path = ../../../Desktop/Neuralmon/Resources/statsbox.png; sourceTree = "<group>"; };
@@ -1602,30 +1599,60 @@
 			children = (
 				00AAAFF91700F5A400DF506C /* AppDelegate.cpp */,
 				00AAAFFA1700F5A400DF506C /* AppDelegate.h */,
+				00AAB01E170108B000DF506C /* Layers */,
+				00AAB020170108C600DF506C /* Actions */,
+				00AAB01F170108B700DF506C /* Scenes */,
+				00AAB021170108CD00DF506C /* Pets */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		00AAB01E170108B000DF506C /* Layers */ = {
+			isa = PBXGroup;
+			children = (
 				00AAAFFB1700F5A400DF506C /* BackgroundLayer.cpp */,
 				00AAAFFC1700F5A400DF506C /* BackgroundLayer.h */,
 				00AAAFFD1700F5A400DF506C /* CharactersLayer.cpp */,
 				00AAAFFE1700F5A400DF506C /* CharactersLayer.h */,
-				00AAAFFF1700F5A400DF506C /* Charm.cpp */,
-				00AAB0001700F5A400DF506C /* Charm.h */,
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		00AAB01F170108B700DF506C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
 				00AAB0011700F5A400DF506C /* MenuScene.cpp */,
 				00AAB0021700F5A400DF506C /* MenuScene.h */,
-				00AAB0031700F5A400DF506C /* Pet.cpp */,
-				00AAB0041700F5A400DF506C /* Pet.h */,
 				00AAB0051700F5A400DF506C /* PlayScene.cpp */,
 				00AAB0061700F5A400DF506C /* PlayScene.h */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		00AAB020170108C600DF506C /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				00AAAFFF1700F5A400DF506C /* Charm.cpp */,
+				00AAB0001700F5A400DF506C /* Charm.h */,
 				00AAB0071700F5A400DF506C /* Recover.cpp */,
 				00AAB0081700F5A400DF506C /* Recover.h */,
-				00AAB0091700F5A400DF506C /* Saquito.cpp */,
-				00AAB00A1700F5A400DF506C /* Saquito.h */,
 				00AAB00B1700F5A400DF506C /* Spite.cpp */,
 				00AAB00C1700F5A400DF506C /* Spite.h */,
 				00AAB00D1700F5A400DF506C /* Tackle.cpp */,
 				00AAB00E1700F5A400DF506C /* Tackle.h */,
-				00AAAFEB1700F50100DF506C /* HelloWorldScene.h */,
-				00AAAFEC1700F50100DF506C /* HelloWorldScene.cpp */,
 			);
-			name = Classes;
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		00AAB021170108CD00DF506C /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				00AAB0031700F5A400DF506C /* Pet.cpp */,
+				00AAB0041700F5A400DF506C /* Pet.h */,
+				00AAB0091700F5A400DF506C /* Saquito.cpp */,
+				00AAB00A1700F5A400DF506C /* Saquito.h */,
+			);
+			name = Pets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1879,7 +1906,6 @@
 				00AAAFDA1700F50100DF506C /* HttpClient.cpp in Sources */,
 				00AAAFE01700F50100DF506C /* CCPhysicsDebugNode.cpp in Sources */,
 				00AAAFE31700F50100DF506C /* CCPhysicsSprite.cpp in Sources */,
-				00AAAFED1700F50100DF506C /* HelloWorldScene.cpp in Sources */,
 				00AAB00F1700F5A400DF506C /* AppDelegate.cpp in Sources */,
 				00AAB0101700F5A400DF506C /* BackgroundLayer.cpp in Sources */,
 				00AAB0111700F5A400DF506C /* CharactersLayer.cpp in Sources */,
@@ -1967,6 +1993,7 @@
 				GCC_PREFIX_HEADER = Neuralmon/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = Neuralmon/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Neuralmon/libs/cocos2dx/platform/third_party/ios/libraries\"",
@@ -1989,6 +2016,7 @@
 				GCC_PREFIX_HEADER = Neuralmon/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = Neuralmon/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Neuralmon/libs/cocos2dx/platform/third_party/ios/libraries\"",
