@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000CA8D01701302100546C83 /* Selem.png in Resources */ = {isa = PBXBuildFile; fileRef = 000CA8CE1701302100546C83 /* Selem.png */; };
+		000CA8D11701302100546C83 /* Yaram.png in Resources */ = {isa = PBXBuildFile; fileRef = 000CA8CF1701302100546C83 /* Yaram.png */; };
+		000CA8D71701306700546C83 /* Selem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000CA8D51701306700546C83 /* Selem.cpp */; };
+		000CA8DA1701317B00546C83 /* Yaram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 000CA8D81701317B00546C83 /* Yaram.cpp */; };
 		00AAAD3C1700F4FD00DF506C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AAAD3B1700F4FD00DF506C /* QuartzCore.framework */; };
 		00AAAD3E1700F4FD00DF506C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AAAD3D1700F4FD00DF506C /* OpenGLES.framework */; };
 		00AAAD401700F4FD00DF506C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AAAD3F1700F4FD00DF506C /* OpenAL.framework */; };
@@ -221,6 +225,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000CA8CE1701302100546C83 /* Selem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Selem.png; path = Resources/Selem.png; sourceTree = "<group>"; };
+		000CA8CF1701302100546C83 /* Yaram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yaram.png; path = Resources/Yaram.png; sourceTree = "<group>"; };
+		000CA8D51701306700546C83 /* Selem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Selem.cpp; path = Classes/Selem.cpp; sourceTree = "<group>"; };
+		000CA8D61701306700546C83 /* Selem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Selem.h; path = Classes/Selem.h; sourceTree = "<group>"; };
+		000CA8D81701317B00546C83 /* Yaram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Yaram.cpp; path = Classes/Yaram.cpp; sourceTree = "<group>"; };
+		000CA8D91701317B00546C83 /* Yaram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Yaram.h; path = Classes/Yaram.h; sourceTree = "<group>"; };
 		00AAAD381700F4FD00DF506C /* Neuralmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuralmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AAAD3B1700F4FD00DF506C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		00AAAD3D1700F4FD00DF506C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -762,6 +772,8 @@
 				00AAAD531700F4FD00DF506C /* HelloWorld.png */,
 				00AAAD551700F4FD00DF506C /* Icon-72.png */,
 				00AAAD571700F4FD00DF506C /* Icon-Small-50.png */,
+				000CA8CE1701302100546C83 /* Selem.png */,
+				000CA8CF1701302100546C83 /* Yaram.png */,
 				00AAAD591700F4FD00DF506C /* Icon-Small.png */,
 				00AAAD5B1700F4FD00DF506C /* Icon-Small@2x.png */,
 				00AAAD5D1700F4FD00DF506C /* Icon.png */,
@@ -1651,6 +1663,10 @@
 				00AAB0041700F5A400DF506C /* Pet.h */,
 				00AAB0091700F5A400DF506C /* Saquito.cpp */,
 				00AAB00A1700F5A400DF506C /* Saquito.h */,
+				000CA8D51701306700546C83 /* Selem.cpp */,
+				000CA8D61701306700546C83 /* Selem.h */,
+				000CA8D81701317B00546C83 /* Yaram.cpp */,
+				000CA8D91701317B00546C83 /* Yaram.h */,
 			);
 			name = Pets;
 			sourceTree = "<group>";
@@ -1720,6 +1736,8 @@
 				00AAAFF61700F57700DF506C /* charmander.png in Resources */,
 				00AAAFF71700F57700DF506C /* movebox.png in Resources */,
 				00AAAFF81700F57700DF506C /* statsbox.png in Resources */,
+				000CA8D01701302100546C83 /* Selem.png in Resources */,
+				000CA8D11701302100546C83 /* Yaram.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1917,6 +1935,8 @@
 				00AAB0171700F5A400DF506C /* Saquito.cpp in Sources */,
 				00AAB0181700F5A400DF506C /* Spite.cpp in Sources */,
 				00AAB0191700F5A400DF506C /* Tackle.cpp in Sources */,
+				000CA8D71701306700546C83 /* Selem.cpp in Sources */,
+				000CA8DA1701317B00546C83 /* Yaram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
