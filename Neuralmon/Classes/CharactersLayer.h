@@ -13,6 +13,8 @@
 #include "Pet.h"
 
 #include "Saquito.h"
+#include "Selem.h"
+#include "Yaram.h"
 
 class CharactersLayer : public cocos2d::CCLayer {
 protected:

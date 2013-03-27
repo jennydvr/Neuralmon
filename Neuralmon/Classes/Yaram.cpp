@@ -10,7 +10,7 @@
 
 Yaram::Yaram() : Pet(106, 90, 130)
 {
-    name = "Saquito";
+    name = "Yaram";
     Pet::init("Yaram.png");
     
     sprite->setScale(0.125f);

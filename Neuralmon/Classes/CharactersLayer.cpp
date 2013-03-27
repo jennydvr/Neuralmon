@@ -17,8 +17,8 @@ bool CharactersLayer::init()
         return false;
     
     // Inicializar los jugadores
-    player1 = new Saquito();
-    player2 = new Saquito();
+    player1 = new Yaram();
+    player2 = new Selem();
     
     // Inicializar los stats y las imagenes
     CCSize winSize = CCDirector::sharedDirector()->getWinSize();

@@ -10,7 +10,7 @@
 
 Selem::Selem() : Pet(106, 90, 130)
 {
-    name = "Saquito";
+    name = "Selem";
     Pet::init("Selem.png");
     
     sprite->setScale(0.125f);
